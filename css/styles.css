@@ -942,7 +942,7 @@ input::placeholder {
 	background-color: rgba(0, 0, 0, 0.6);
 	z-index: 5;
 	box-sizing: border-box;
-	/* display: none; */
+	display: none;
 }
 
 .popup__container {
