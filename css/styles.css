@@ -25,13 +25,13 @@ body {
 	background-color: #000;
 	padding-bottom: 127px;
 	box-sizing: border-box;
+	position: relative;
 }
 
 .header::before {
 	content: '';
 	display: block;
 	min-width: 1200px;
-	height: 448px;
 	position: absolute;
 	top: 0;
 	bottom: 0;
@@ -81,7 +81,7 @@ body {
 .header__item {
 	display: inline-block;
 	margin-left: 35px;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 13px;
 }
@@ -101,7 +101,7 @@ body {
 
 .header__banner-title-text {
 	color: #fff;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 45px;
@@ -112,7 +112,6 @@ body {
 	margin-bottom: 0;
 	position: relative;
 	display: block;
-	max-height: 150px;
 	box-sizing: border-box;
 }
 
@@ -215,7 +214,7 @@ body {
 }
 
 .trends__tag {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	margin-right: 19px;
@@ -292,7 +291,7 @@ body {
 }
 
 .main-page__article-tag {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	color: #b59f5b;
@@ -313,7 +312,7 @@ body {
 
 .main-page__article-title {
 	color: #000;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 20px;
 	line-height: 24px;
@@ -327,7 +326,7 @@ body {
 
 .main-page__article-release-date {
 	color: #888888;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
 	margin-right: 10px;
@@ -335,7 +334,7 @@ body {
 
 .main-page__article-author {
 	color: #000;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 40px;
@@ -351,7 +350,7 @@ body {
 
 .main-page__article-description-text {
 	color: #000;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 15px;
 	line-height: 22px;
@@ -363,7 +362,7 @@ body {
 }
 
 .aside__title {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 0;
@@ -407,7 +406,7 @@ body {
 
 .aside__post-date {
 	color: #888888;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 12px;
 	margin-right: 10px;
@@ -419,7 +418,7 @@ body {
 }
 
 .aside__post-title {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 18px;
@@ -474,7 +473,7 @@ body {
 }
 
 .aside__mailing-title {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 0;
@@ -504,7 +503,7 @@ body {
 }
 
 input::placeholder {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 13px;
 
@@ -520,7 +519,7 @@ input::placeholder {
 	margin-top: 18px;
 	background-color: #b59f5b;
 	border: 0;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	color: #fff;
@@ -539,7 +538,7 @@ input::placeholder {
 }
 
 .aside__tags-title {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 0;
@@ -586,7 +585,7 @@ input::placeholder {
 
 .aside__tags-item {
 	color: #000;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	text-transform: uppercase;
@@ -603,7 +602,7 @@ input::placeholder {
 }
 
 .aside__themes-title {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 0;
@@ -628,7 +627,7 @@ input::placeholder {
 
 .aside__themes-item {
 	color: #000;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 14px;
 	line-height: 47px;
@@ -642,7 +641,7 @@ input::placeholder {
 .aside__themes-item-beauty::after {
 	content: '12';
 	color: #b59f5b;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 37px;
@@ -654,7 +653,7 @@ input::placeholder {
 .aside__themes-item-health::after {
 	content: '4';
 	color: #b59f5b;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 37px;
@@ -666,7 +665,7 @@ input::placeholder {
 .aside__themes-item-lifestyle::after {
 	content: '145';
 	color: #b59f5b;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 37px;
@@ -678,7 +677,7 @@ input::placeholder {
 .aside__themes-item-music::after {
 	content: '28';
 	color: #b59f5b;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 37px;
@@ -690,7 +689,7 @@ input::placeholder {
 .aside__themes-item-sport::after {
 	content: '62';
 	color: #b59f5b;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 37px;
@@ -702,7 +701,7 @@ input::placeholder {
 .aside__themes-item-yoga::after {
 	content: '8';
 	color: #b59f5b;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 37px;
@@ -768,7 +767,8 @@ input::placeholder {
 	padding: 50px 20px 26px 20px;
 	z-index: 1;
 	position: relative;
-	height: 260px;
+	/* height: 260px; */
+	min-height: 265px;
 	box-sizing: border-box;
 }
 
@@ -938,12 +938,12 @@ input::placeholder {
 
 .footer__copyright-text {
 	color: #999999;
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: bold;
 	font-size: 12px;
 }
 
-.popup__hidden {
+.popup-hidden {
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -1081,7 +1081,7 @@ input::placeholder {
 }
 
 textarea::placeholder {
-	font-family: Open Sans, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: normal;
 	font-size: 13px;
 }
@@ -1160,8 +1160,7 @@ textarea::placeholder {
 		position: relative;
 		background-image: url('../images/banner-bg-tablet.jpg');
 		background-size: cover;
-		padding: 43px 35px 0 35px;
-		height: 390px;
+		padding: 43px 35px 113px 35px;
 		box-sizing: border-box;
 	}
 
@@ -1170,7 +1169,6 @@ textarea::placeholder {
 		width: 100%;
 		content: '';
 		display: block;
-		height: 100%;
 		position: absolute;
 	}
 
@@ -1406,8 +1404,8 @@ textarea::placeholder {
 		position: relative;
 		background-image: url('../images/banner-mobile.jpg');
 		background-size: cover;
-		padding: 32px 15px 0 15px;
-		height: 638px;
+		padding: 32px 15px 215px 15px;
+		/* height: 638px; */
 		box-sizing: border-box;
 	}
 
