@@ -116,7 +116,7 @@ body {
 }
 
 .trends {
-	margin-top: 64px;
+	margin-top: 59px;
 }
 
 .trends__title {
@@ -209,7 +209,7 @@ body {
 	display: flex;
 	list-style-type: none;
 	z-index: 1;
-	margin: 0 0 15px 0;
+	margin: 0 0 10px 0;
 	padding: 0;
 }
 
@@ -317,7 +317,7 @@ body {
 	font-size: 20px;
 	line-height: 24px;
 	text-transform: uppercase;
-	margin-top: 15px;
+	margin-top: 6px;
 }
 
 .main-page__article-title:hover {
@@ -338,6 +338,10 @@ body {
 	font-weight: bold;
 	font-size: 12px;
 	line-height: 40px;
+}
+
+.main-page__article-description {
+	margin-top: 29px;
 }
 
 .main-page__article-description > p {
@@ -479,7 +483,7 @@ body {
 	line-height: 0;
 	text-transform: uppercase;
 	text-align: center;
-	margin-top: 60px;
+	margin-top: 69px;
 	margin-bottom: 24px;
 }
 
@@ -533,7 +537,7 @@ input::placeholder {
 
 
 .aside__tags {
-	margin-top: 60px;
+	margin-top: 67px;
 	width: 272px;
 }
 
@@ -560,7 +564,7 @@ input::placeholder {
 .aside__tags-item-link {
 	text-decoration: none;
 	display: block;
-	padding: 7px 13px;
+	padding: 2px 13px;
 }
 
 .aside__tags-items {
@@ -576,7 +580,7 @@ input::placeholder {
 }
 
 .aside__tags-item-border:not(:nth-child(3n+4)):not(:first-child) {
-	margin-left: 5px;
+	margin-left: 8px;
 }
 
 .aside__tags-item-border:nth-child(n+4) {
@@ -592,13 +596,14 @@ input::placeholder {
 }
 
 .aside__themes {
-	margin-top: 60px;
+	margin-top: 69px;
 	width: 272px;
 }
 
 .aside__themes-items-list {
 	list-style-type: none;
 	padding: 0;
+	margin: 0;
 }
 
 .aside__themes-title {
@@ -609,7 +614,7 @@ input::placeholder {
 	text-transform: uppercase;
 	text-align: center;
 	margin-top: 0;
-	margin-bottom: 24px;
+	margin-bottom: 11px;
 }
 
 .aside__themes-title::after {
@@ -724,7 +729,7 @@ input::placeholder {
 	font-size: 20px;
 	line-height: 29px;
 	color: #000;
-	margin: 64px 0 0 0;
+	margin: 57px 0 0 0;
 	text-transform: uppercase;
 }
 
@@ -741,7 +746,7 @@ input::placeholder {
 	display: flex;
 	width: 100%;
 	justify-content: center;
-	margin-top: 20px;
+	margin-top: 28px;
 }
 
 .production__item {
@@ -778,6 +783,7 @@ input::placeholder {
 	font-size: 20px;
 	line-height: 24px;
 	margin: 0;
+	text-transform: uppercase;
 }
 
 .production__item-description {
@@ -885,15 +891,11 @@ input::placeholder {
 	justify-content: center;
 	align-items: center;
 	height: 100%;
+	gap: 21px;
 }
 
 .footer__socialmedia-list-items {
 	display: flex;
-	margin-left: 31px;
-}
-
-.footer__socialmedia-list-items:first-child {
-	margin-left: 0;
 }
 
 .footer__socialmedia {
@@ -928,7 +930,7 @@ input::placeholder {
 }
 
 .footer__copyright {
-	margin-top: 75px;
+	margin-top: 65px;
 	text-align: center;
 }
 
@@ -1237,9 +1239,13 @@ textarea::placeholder {
 		height: 247px;
 	}
 
+	.trends__item-content {
+		padding: 32px;
+	}
+
 	.trends__tags {
 		padding: 0;
-		margin-bottom: 12px;
+		margin-bottom: 7px;
 	}
 
 	.trends-item-title {
@@ -1248,7 +1254,7 @@ textarea::placeholder {
 	}
 
 	.container {
-		margin-top: 50px;
+		margin-top: 47px;
 		min-width: 641px;
 		width: 100%;
 		padding: 0 35px;
@@ -1288,7 +1294,7 @@ textarea::placeholder {
 	.main-page__article-title {
 		font-size: 17px;
 		line-height: 22px;
-		margin-top: 6px;
+		margin-top: 8px;
 		margin-bottom: 17px;
 	}
 
@@ -1300,6 +1306,23 @@ textarea::placeholder {
 		margin-left: 0;
 	}
 
+	.aside__title {
+		margin-bottom: 29px;
+		margin-top: 5px;
+	}
+
+	.aside__posts {
+		margin-top: 0;
+	}
+
+	.aside__post-date {
+		display: inline;
+	}
+
+	.aside__mailing-title {
+		margin-top: 65px;
+	}
+
 	.production {
 		max-width: 1199px;
 		padding: 0 35px;
@@ -1307,7 +1330,7 @@ textarea::placeholder {
 
 	.production__title {
 		font-size: 18px;
-		margin-top: 50px;
+		margin-top: 39px;
 	}
 
 	.production__items {
@@ -1328,6 +1351,10 @@ textarea::placeholder {
 		margin-top: 28px;
 	}
 
+	.production__item-content {
+		margin-top: -37px;
+	}
+
 	.production__item-title {
 		font-size: 17px;
 		line-height: 22px;
@@ -1340,6 +1367,11 @@ textarea::placeholder {
 	.footer {
 		min-width: 641px;
 		padding: 0 35px;
+		margin-top: 25px;
+	}
+
+	.footer__copyright {
+		margin-top: 42px;
 	}
 
 	.popup__hidden {
@@ -1538,6 +1570,10 @@ textarea::placeholder {
 		line-height: 22px;
 		margin-top: 6px;
 		margin-bottom: 3px;
+	}
+
+	.main-page__article-description {
+		margin-top: 0;
 	}
 
 	.main-page__article-description-text {

@@ -142,7 +142,7 @@
 					<a href="#0" class="main-page__article-title-link"><h2 class="main-page__article-title">10 мест, ради которых стоит
 	проснуться на рассвете</h2></a>
 					<div class="main-page__article-author-and-date">
-						<time class="main-page__article-release-date">10 июня 2019</time>
+						<time datetime="2019-06-10" class="main-page__article-release-date">10 июня 2019</time>
 						<span class="main-page__article-author">Неизвестный автор</span>
 					</div>
 					<div class="main-page__article-description">
@@ -166,7 +166,7 @@
 					<a href="#0" class="main-page__article-title-link"><h2 class="main-page__article-title">Йога для начинающих в
 	домашних условиях</h2></a>
 					<div class="main-page__article-author-and-date">
-						<time class="main-page__article-release-date">10 июня 2019</time>
+						<time datetime="2019-06-10" class="main-page__article-release-date">10 июня 2019</time>
 						<span class="main-page__article-author">Неизвестный автор</span>
 					</div>
 					<div class="main-page__article-description">
@@ -187,7 +187,7 @@
 					<a href="#0" class="main-page__article-title-link"><h2 class="main-page__article-title">Лучшие музыкальные
 	фестивали этого лета</h2></a>
 					<div class="main-page__article-author-and-date">
-						<time class="main-page__article-release-date">10 июня 2019</time>
+						<time datetime="2019-06-10" class="main-page__article-release-date">10 июня 2019</time>
 						<span class="main-page__article-author">Неизвестный автор</span>
 					</div>
 					<div class="main-page__article-description">
@@ -214,7 +214,7 @@
 					<a href="#0" class="main-page__article-title-link"><h2 class="main-page__article-title">Наукоёмкий подход к
 	кулинарии</h2></a>
 					<div class="main-page__article-author-and-date">
-						<time class="main-page__article-release-date">10 июня 2019</time>
+						<time datetime="2019-06-10" class="main-page__article-release-date">10 июня 2019</time>
 						<span class="main-page__article-author">Неизвестный автор</span>
 					</div>
 					<div class="main-page__article-description">
@@ -241,7 +241,7 @@
 					<a href="#0" class="main-page__article-title-link"><h2 class="main-page__article-title">Делаем модные принты на
 	подушках для интерьера </h2></a>
 					<div class="main-page__article-author-and-date">
-						<time class="main-page__article-release-date">10 июня 2019</time>
+						<time datetime="2019-06-10" class="main-page__article-release-date">10 июня 2019</time>
 						<span class="main-page__article-author">Неизвестный автор</span>
 					</div>
 					<div class="main-page__article-description">
@@ -259,7 +259,7 @@
 					<article class="aside__post-first">
 						<img src="images/2.jpg" alt="Превью" class="aside__post-preview">
 						<div class="aside__post-content">
-							<time class="aside__post-date">14 июня 2019</time>
+							<time datetime="2019-06-14" class="aside__post-date">14 июня 2019</time>
 							<a href="#0" class="aside__post-title-link">
 								<h3 class="aside__post-title">
 							10 мест, ради которых стоит проснуться
@@ -270,7 +270,7 @@
 					<article class="aside__post">
 						<img src="images/151.jpg" alt="Превью" class="aside__post-preview">
 						<div class="aside__post-content">
-							<time class="aside__post-date">14 июня 2019</time>
+							<time datetime="2019-06-14" class="aside__post-date">14 июня 2019</time>
 							<a href="#0" class="aside__post-title-link">
 								<h3 class="aside__post-title">
 								Йога для домашних
@@ -281,7 +281,7 @@
 					<article class="aside__post">
 						<img src="images/45.jpg" alt="Превью" class="aside__post-preview">
 						<div class="aside__post-content">
-							<time class="aside__post-date">14 июня 2019</time>
+							<time datetime="2019-06-14" class="aside__post-date">14 июня 2019</time>
 							<a href="#0" class="aside__post-title-link">
 								<h3 class="aside__post-title">
 								Как мы превратили классное место в балкон
@@ -292,7 +292,7 @@
 					<article class="aside__post">
 						<img src="images/501.jpg" alt="Превью" class="aside__post-preview">
 						<div class="aside__post-content">
-							<time class="aside__post-date">14 июня 2019</time>
+							<time datetime="2019-06-14" class="aside__post-date">14 июня 2019</time>
 							<a href="#0" class="aside__post-title-link">
 								<h3 class="aside__post-title">
 								Кулинарный подход к науке
@@ -303,7 +303,7 @@
 					<article class="aside__post">
 						<img src="images/7.jpg" alt="Превью" class="aside__post-preview">
 						<div class="aside__post-content">
-							<time class="aside__post-date">14 июня 2019</time>
+							<time datetime="2019-06-14" class="aside__post-date">14 июня 2019</time>
 							<a href="#0" class="aside__post-title-link">
 								<h3 class="aside__post-title">
 								Лучшие прически для распущенных волос
@@ -401,7 +401,12 @@
 		</h2>
 		<div class="production__items">
 			<article class="production__item production__item-first">
-				<img src="images/shop-item-desk1.jpg" alt="Превью" class="production__preview">
+				<picture class="production__preview">
+					<source srcset="images/shop-item-desk1.jpg" type="image/jpeg" media="(min-width: 1200px)">
+					<source srcset="images/shop-item-tablet1.jpg" media="(min-width: 641px)">
+					<source srcset="images/shop-item-mobile1.jpg" media="(max-width: 640px)">
+					<img src="images/shop-item-desk1.jpg" alt="Превью">
+				</picture>
 				<div class="production__item-content">
 					<h3 class="production__item-title">
 						Подушки на диван
@@ -419,7 +424,12 @@
 				</div>
 			</article>
 			<article class="production__item">
-				<img src="images/shop-item-desk2.jpg" alt="Превью" class="production__preview">
+				<picture class="production__preview">
+					<source srcset="images/shop-item-desk2.jpg" type="image/jpeg" media="(min-width: 1200px)">
+					<source srcset="images/shop-item-tablet2.jpg" media="(min-width: 641px)">
+					<source srcset="images/shop-item-mobile2.jpg" media="(max-width: 640px)">
+					<img src="images/shop-item-desk2.jpg" alt="Превью">
+				</picture>
 				<div class="production__item-content">
 					<h3 class="production__item-title">
 						Кукла «Зайчик»
@@ -438,7 +448,12 @@
 				</div>
 			</article>
 			<article class="production__item">
-				<img src="images/shop-item-desk3.jpg" alt="Превью" class="production__preview">
+				<picture class="production__preview">
+					<source srcset="images/shop-item-desk3.jpg" type="image/jpeg" media="(min-width: 1200px)">
+					<source srcset="images/shop-item-tablet3.jpg" media="(min-width: 641px)">
+					<source srcset="images/shop-item-mobile3.jpg" media="(max-width: 640px)">
+					<img src="images/shop-item-desk3.jpg" alt="Превью">
+				</picture>
 				<div class="production__item-content">
 					<h3 class="production__item-title">
 						Шестиугольная рамка
